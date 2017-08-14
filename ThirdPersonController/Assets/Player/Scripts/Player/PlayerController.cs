@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
-        if (!Input.GetKey(KeyCode.LeftShift))
+        if (!Input.GetMouseButton(0))
         {
             v *= .5f; 
         }
